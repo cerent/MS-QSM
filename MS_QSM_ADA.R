@@ -42,8 +42,8 @@ parallelnumber<-10
 myCluster <- makeCluster(parallelnumber)
 registerDoMC(parallelnumber)
 
-minsplitinterval<-seq(10,50,10)
-cpinterval<-c(0.1,0.01,0.001,0.0001)
+minsplitinterval<-seq(5,50,5)
+cpinterval<-c(0.1,0.01,0.001,0.001)
 numberofiter<-50
 varImp_all_outer1<-list()
 
